@@ -1,0 +1,114 @@
+@media screen and (max-width: 810px){
+    .section7-cont {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+    }
+        
+      .stay {
+        width: 90%;
+        height: 250px;
+        justify-content: flex-start;
+        text-align: center;
+      }
+        
+      .form-div {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        //border: 1px red solid;
+        flex-direction: column;
+        
+        
+        
+      }
+      .line1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        label {
+          text-transform: capitalize;
+          color: #afb7c1;
+          font-weight: 500;
+          text-align: left;
+          font-weight: 500;
+        }
+      }
+      .line2 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        label {
+          text-transform: capitalize;
+          color: #afb7c1;
+          font-weight: 500;
+          text-align: left;
+          font-weight: 500;
+        }
+        
+        button {
+          width: 140px;
+          height: 50px;
+          border-radius: 6px;
+          background-color: #4b74fe !important;
+          border: #4b74fe !important;
+          color: white !important;
+          cursor: pointer;
+          position: relative;
+          right: 100px;
+          &:hover {
+            filter: brightness(80%);
+          }
+        }
+        
+      }
+      #name {
+        width: 330px;
+        height: 45px;
+        margin-top: 15px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+      }
+      #email {
+        width: 330px;
+        height: 45px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      #subject {
+        width: 330px;
+        height: 45px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      #message {
+        width: 330px;
+        height: 200px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      .form-input {
+        border: none;
+        background-color: #f3f3fe;
+        border-radius: 5px;
+        padding-left: 10px;
+        &::placeholder {
+          color: #6d728b;
+          font-size: medium;
+        }
+      }
+      .b-div {
+        width: 100%;
+        height: auto;
+        display: flex;
+      }
+      
+}
+    

@@ -1,0 +1,45 @@
+@media screen and (max-width: 810px) {
+    .section3-content {
+        width: 100%;
+        height: 1800px;
+        
+      }
+      .section3-icones {
+        width: 85%;
+        height: 1700px;
+        display: flex;
+        //border: 1px red solid;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+      }
+      .icons-div {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 55px;
+          height: 55px;
+          &:hover {
+            transform: rotate(360deg);
+            transition: 1s;
+          }
+        }
+        h5 {
+          font-size: 21px;
+          font-weight: 400;
+          text-align: center;
+        }
+      }
+      .icons2 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+}
